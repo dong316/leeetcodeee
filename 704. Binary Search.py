@@ -44,7 +44,7 @@ Wenxuan Dong        2024/9/22
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
 
-        left, right = 0, len(nums)-1
+        left, right = 0, len(nums)
 
         while left < right:
             middle = left + (right - left)//2
